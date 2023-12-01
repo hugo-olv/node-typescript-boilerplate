@@ -1,0 +1,23 @@
+{
+  "printWidth": 90,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "singleAttributePerLine": false,
+  "overrides": [
+    {
+      "files": ["*.ts", "*.mts"],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}

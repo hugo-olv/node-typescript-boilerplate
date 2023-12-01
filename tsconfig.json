@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext"],
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "noEmit": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type checking */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
